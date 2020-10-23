@@ -1,13 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordToPdf", "WordToPdf\WordToPdf.csproj", "{5A632842-ED9D-4103-A7AB-7A244512969B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A632842-ED9D-4103-A7AB-7A244512969B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A632842-ED9D-4103-A7AB-7A244512969B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A632842-ED9D-4103-A7AB-7A244512969B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A632842-ED9D-4103-A7AB-7A244512969B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3BCE075C-5C23-428C-9784-D90C2591706B}
+		SolutionGuid = {38FE3AC7-53AB-4BD2-94CD-086D10C38E2B}
 	EndGlobalSection
 EndGlobal
